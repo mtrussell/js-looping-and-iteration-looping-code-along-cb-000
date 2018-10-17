@@ -5,6 +5,7 @@ function printBadges(arr){
     let employeeNumber = i + 1;
     console.log(`Welcome ${arr[i]}! You are employee #${employeeNumber}.`);
   }
+  return arr;
 }
 
 
