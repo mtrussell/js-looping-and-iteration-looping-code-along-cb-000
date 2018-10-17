@@ -10,5 +10,13 @@ function printBadges(arr){
 
 
 function tailsNeverFails(){
-
+  let flip = 0.5;
+  let count = 0;
+  while(flip >= 0.5){
+    flip = Math.random();
+    if (flip >= 0.5){
+      count += 1;
+    }
+  }
+  return "You got ${count} tails in a row!";
 }
